@@ -32,7 +32,7 @@
 | **Routine Inspection Routes System** | System for planning and executing industrial inspections, with complex rule handling and optimized SQL. | .NET 8 • MS SQL • DDD |
 | **AI-Powered Maintenance Planner** | Azure Functions + ML integration that minimizes industrial downtime. | .NET 8 • Azure Pipelines • Azure Web Services • MongoDB |
 | **Microservices Playground** *(side project)* | Two self-contained .NET 8 services communicating over HTTP, each with its own database. Features CQRS, Polly-based resilience (retries + circuit breaker), and full observability via Serilog → Elasticsearch → Kibana. | .NET 8 • SQL Server • Serilog • Elasticsearch • Kibana • Polly |
-| **Motorcycle Rental Platform** *(side project)* | Back-end system for managing motorcycle rentals and delivery drivers, using a microservices architecture with RabbitMQ for messaging and MinIO for object storage. | .NET 8 • PostgreSQL • RabbitMQ • MinIO |
+| **Motorcycle Rental Platform** *(side project)* | Back-end system for managing motorcycle rentals and delivery drivers, using a microservices architecture with RabbitMQ for messaging and S3 for object storage. | .NET 8 • PostgreSQL • RabbitMQ • S3 |
 | **Auth-Guard** *(side project)* | Full authentication & account-management API. | Node.js • TypeScript • Redis • MongoDB |
 
 ---
